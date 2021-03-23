@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func aboutUs(_ sender: UIButton) {
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "aboutUsView") as? AboutUsViewController {
+                     //Display a push navigation
+                     self.navigationController?.pushViewController(vc, animated: true)
+                 }
+       
+    }
+    
 }
 

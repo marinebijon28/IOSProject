@@ -15,6 +15,7 @@
 		68D01711260A4223001382DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D0170F260A4223001382DA /* LaunchScreen.storyboard */; };
 		68D0171C260A4223001382DA /* projectIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D0171B260A4223001382DA /* projectIOSTests.swift */; };
 		68D01727260A4223001382DA /* projectIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D01726260A4223001382DA /* projectIOSUITests.swift */; };
+		68D01746260A5A84001382DA /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D01745260A5A84001382DA /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		68D01722260A4223001382DA /* projectIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D01726260A4223001382DA /* projectIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectIOSUITests.swift; sourceTree = "<group>"; };
 		68D01728260A4223001382DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D01745260A5A84001382DA /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				68D0170D260A4223001382DA /* Assets.xcassets */,
 				68D0170F260A4223001382DA /* LaunchScreen.storyboard */,
 				68D01712260A4223001382DA /* Info.plist */,
+				68D01745260A5A84001382DA /* AboutUsViewController.swift */,
 			);
 			path = projectIOS;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D01746260A5A84001382DA /* AboutUsViewController.swift in Sources */,
 				68D01709260A4220001382DA /* ViewController.swift in Sources */,
 				68D01705260A4220001382DA /* AppDelegate.swift in Sources */,
 				68D01707260A4220001382DA /* SceneDelegate.swift in Sources */,
