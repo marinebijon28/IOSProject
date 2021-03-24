@@ -75,7 +75,7 @@
         <scene sceneID="3m5-Gm-6Ir">
             <objects>
                 <viewController id="i6n-mY-e3X" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2gS-Qo-xlF">
+                    <view key="view" contentMode="scaleToFill" id="2gS-Qo-xlF" customClass="AllMoviesViewController" customModule="projectIOS" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
