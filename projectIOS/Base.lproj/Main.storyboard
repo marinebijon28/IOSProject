@@ -22,6 +22,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Entrez dans le site"/>
+                                <connections>
+                                    <action selector="connetedSite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dmA-NQ-23R"/>
+                                    <segue destination="oSJ-ds-IbI" kind="show" id="1rh-w2-s3X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6If-yB-vjD">
                                 <rect key="frame" x="149" y="661" width="116" height="48"/>
@@ -41,6 +45,75 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="93.75"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="jbG-ps-IHh">
+            <objects>
+                <viewController id="3Hb-E1-bhw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hYH-Ee-dsU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="searchMovie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hL7-C3-ZCH">
+                                <rect key="frame" x="125" y="337" width="165" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GAg-yq-phK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="roz-Ay-cf1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDp-rm-JRI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2828.985507246377" y="-463.39285714285711"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="3m5-Gm-6Ir">
+            <objects>
+                <viewController id="i6n-mY-e3X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2gS-Qo-xlF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DisplayAllMovies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KA7-Ld-KSk">
+                                <rect key="frame" x="97" y="378" width="220" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="APD-yr-Gxm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="eTl-xz-N7Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mUD-uv-Fb6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2829" y="-1193"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tcv-LJ-v6n">
+            <objects>
+                <tabBarController storyboardIdentifier="tabBarHome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oSJ-ds-IbI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vC2-Sb-S8U"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rnJ-M6-QN4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="i6n-mY-e3X" kind="relationship" relationship="viewControllers" id="cZ2-Az-3Cn"/>
+                        <segue destination="3Hb-E1-bhw" kind="relationship" relationship="viewControllers" id="iNd-85-vZi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBl-l3-2m6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="-668"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ePH-yp-qsG">
